@@ -1,0 +1,24 @@
+
+/* lo del admin-bar ciao! */
+form#your-profile table.form-table tr.show-admin-bar {
+	display: none;
+}
+
+/* el bloque autogenerado por el plugin tenía márgenes raros...*/
+div.wpcf-profile-field-line {
+	margin: -5px 10px 15px;
+}
+
+/* datos biográficos borrados */
+form#your-profile table.form-table:nth-child(11) tr:first-child {
+	display: none;
+}
+
+/* fuera befügnisse */
+form#your-profile > h3:nth-child(13) {
+	display: none;
+}
+
+form#your-profile table.form-table:nth-child(14) {
+	display: none;
+}
